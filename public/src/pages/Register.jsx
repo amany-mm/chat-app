@@ -29,7 +29,7 @@ export default function Register() {
     if (localStorage.getItem(process.env.REACT_APP_LOCALHOST_KEY)) {
       navigate("/");
     }
-  }, []);
+  });
 
   const handleValidation = () => {
     const { password, confirmPassword, username, email } = values;
@@ -124,8 +124,10 @@ export default function Register() {
 
           <button type="submit">Register</button>
 
-          <span> Already have an account ? </span>
-          <Link to="/login">Login.</Link>
+          <span>
+            Already have an account?
+            <Link to="/login"> Login </Link>
+          </span>
         </form>
       </FormContainer>
       <ToastContainer />
