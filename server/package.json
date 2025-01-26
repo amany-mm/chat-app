@@ -7,7 +7,7 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "NODE_ENV=test node -r dotenv/config index.js && mocha tests/**/*.test.js",
     "start": "nodemon index.js"
   },
   "dependencies": {
@@ -19,6 +19,10 @@
     "socket.io": "^4.8.1"
   },
   "devDependencies": {
-    "nodemon": "^3.1.9"
+    "chai": "^5.1.2",
+    "chai-http": "^5.1.1",
+    "mocha": "^11.1.0",
+    "nodemon": "^3.1.9",
+    "sinon": "^19.0.2"
   }
 }
