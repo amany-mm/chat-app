@@ -58,3 +58,9 @@ yarn start
 ```
 
 Done! Now open localhost:3000 in your browser.
+
+## Architecture
+
+### Backend Architecture
+
+![Backend Architecture](./media/Backend%20Architecture.png)
