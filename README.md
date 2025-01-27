@@ -64,3 +64,7 @@ Done! Now open localhost:3000 in your browser.
 ### Backend Architecture
 
 ![Backend Architecture](./media/Backend%20Architecture.png)
+
+### Frontend Architecture
+
+![Frontend Architecture](./media/Frontend%20Architecture.png)
