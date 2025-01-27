@@ -63,8 +63,8 @@ Done! Now open localhost:3000 in your browser.
 
 ### Backend Architecture
 
-![Backend Architecture](https://github.com/amany-mm/chat-app/blob/main/Backend%20Architecture.png)
+![Backend Architecture](https://github.com/amany-mm/chat-app/blob/main/media/BackendArchitecture.png)
 
 ### Frontend Architecture
 
-![Frontend Architecture](https://github.com/amany-mm/chat-app/blob/main/Frontend%20Architecture.png)
+![Frontend Architecture](https://github.com/amany-mm/chat-app/blob/main/media/FrontendArchitecture.png)
